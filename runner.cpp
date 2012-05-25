@@ -56,7 +56,7 @@ void Runner::run() {
             }
         }
     } else {
-        double dt, currStepPart = 0;
+        double dt, currStepPart = 2 * _configurator.anyTime(); // чтобы сохраняло начальное состояние
         while (_totalTime < _configurator.fullTime()) {
             dt = doReaction();
             _totalTime += dt;
