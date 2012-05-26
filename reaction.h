@@ -27,7 +27,7 @@ protected:
     virtual double coef() const = 0;
 
     Surface *_surface;
-    int _times;
+    unsigned long long _times;
 };
 
 #endif // REACTION_H
