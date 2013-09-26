@@ -2,4 +2,6 @@
 *~
 *.pro.user*
 *.autosave
+*.o
+*.dot
 simple_dmc
